@@ -1,3 +1,3 @@
-var Task = require("nomake").task;
+var Task = require("thrall").task;
 
 console.log(Task);
