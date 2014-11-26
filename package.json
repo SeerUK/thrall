@@ -1,14 +1,14 @@
 {
-  "name": "nomake",
+  "name": "thrall",
   "version": "0.0.1-a",
   "description": "Ultra-simple NodeJS build tool.",
-  "main": "src/nomake",
+  "main": "src/thrall",
   "bin": {
-    "nomake": "src/nomake.js"
+    "thrall": "src/thrall.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SeerUK/nomake.git"
+    "url": "https://github.com/SeerUK/thrall.git"
   },
   "keywords": [
     "build",
@@ -18,9 +18,9 @@
   "author": "Elliot Wright <elliot@elliotwright.co>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SeerUK/nomake/issues"
+    "url": "https://github.com/SeerUK/thrall/issues"
   },
-  "homepage": "https://github.com/SeerUK/nomake",
+  "homepage": "https://github.com/SeerUK/thrall",
   "dependencies": {
     "async": "^0.9.0",
     "bluebird": "^2.3.11",
