@@ -3,6 +3,9 @@
   "version": "0.0.1-a",
   "description": "Ultra-simple NodeJS build tool.",
   "main": "src/nomake",
+  "bin": {
+    "nomake": "src/nomake.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/SeerUK/nomake.git"
@@ -20,6 +23,7 @@
   "homepage": "https://github.com/SeerUK/nomake",
   "dependencies": {
     "async": "^0.9.0",
+    "bluebird": "^2.3.11",
     "chalk": "^0.5.1",
     "commander": "^2.5.0",
     "date-time": "^1.0.0",
