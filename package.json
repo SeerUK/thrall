@@ -1,0 +1,24 @@
+{
+  "name": "nomake",
+  "version": "0.0.1-a",
+  "description": "Ultra-simple NodeJS build tool.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeerUK/nomake.git"
+  },
+  "keywords": [
+    "build",
+    "make",
+    "cli"
+  ],
+  "author": "Elliot Wright <elliot@elliotwright.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeerUK/nomake/issues"
+  },
+  "homepage": "https://github.com/SeerUK/nomake",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "commander": "^2.5.0"
+  }
+}
