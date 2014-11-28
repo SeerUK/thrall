@@ -11,7 +11,13 @@ module.exports = new (function() {
 
     "use strict";
 
-    return {
-
+    var Exception = function(previous, message) {
+        this.message = message;
+        this.previous = previous;
     };
+
+    Exception.prototype = new Error();
+    Exception.prototype.constructor = Exception;
+
+    return Exception;
 })();

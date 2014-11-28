@@ -11,7 +11,15 @@ module.exports = new (function() {
 
     "use strict";
 
-    return {
+    var logger = require("./logger");
 
+    var self = this;
+
+    return {
+        handle: function(e) {
+            if (e instanceof Error) {
+                logger.error(e.message);
+            }
+        }
     };
 })();
